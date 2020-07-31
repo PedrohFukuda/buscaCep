@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>O que é esse CEP?</title>
+	<link rel="stylesheet" href="estilo.css">
+	<style>
+		div#searchdiv {
+			font: normal 18pt Arial;
+			align-content: center;
+		}
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<h1>Pesquise os dados de um CEP</h1>
+	</header>
+
+	<section>
+		<div id="searchdiv">
+			<input type="text" name="cep" id="cep" onkeypress="">
+			<input type="button" value="Buscar" onclick="buscaInfoCEP()">
+		</div>
+		<div id="searchresults">
+			
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; Predu</p>
+	</footer>
+
+	<script src="script.js"></script>
+	
+</body>
+
+</html>
